@@ -1,0 +1,4 @@
+feedparser
+pytest
+hypothesis
+ruff
