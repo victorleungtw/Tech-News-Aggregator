@@ -1,0 +1,8 @@
+{
+    "name": "db-setup",
+    "version": "1.0.0",
+    "description": "Initializes the SQLite schema for the news aggregator.",
+    "skills": [
+        "skills/setup"
+    ]
+}

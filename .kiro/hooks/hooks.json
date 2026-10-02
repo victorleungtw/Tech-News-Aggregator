@@ -1,0 +1,16 @@
+{
+    "events": {
+        "PostFileSave": [
+            {
+                "pattern": "**/*.py",
+                "command": "ruff check --fix {filepath}",
+                "description": "Auto-lint and fix Python files on save"
+            },
+            {
+                "pattern": "**/*.py",
+                "command": "pytest tests/ --quiet",
+                "description": "Run tests automatically on save"
+            }
+        ]
+    }
+}
